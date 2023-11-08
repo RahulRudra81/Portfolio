@@ -1,7 +1,5 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -15,14 +13,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  plasma,
+  coachpx,
+  innovination,
   carrent,
   jobit,
   tripguide,
   threejs,
+  pb
 } from "../assets";
 
 export const navLinks = [
@@ -46,17 +44,9 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -116,55 +106,38 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full-Stack Web Developer",
+    company_name: "CoachPx",
+    icon: coachpx,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Utilized React along with React Flow and React Context to create a dynamic and interactive user interface that enhances user engagement and experience.",
+      "Designed and implemented a robust RESTful API architecture, facilitating seamless data communication between the front-end and back-end systems.",
+      "Utilized various AWS services such as Amazon DynamoDB for flexible data storage, Amazon Cognito for secure user authentication, and AWS Lambda for serverless data fetching, optimizing data retrieval and ensuring efficient data flow.",
+      "Led UI/UX design, ensuring cross-device performance. Spearheaded growth through collaborative development and continuous learning.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Wordpress Developer",
+    company_name: "Innovination",
+    icon: innovination,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Oct 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed web pages and managed backend operations, including product categorization and inventory management for various WooCommerce websites, ensuring seamless user experience and visually appealing designs.",
+      "I demonstrated proficiency in web development, project management, and product categorization. My proactive approach and collaboration with the team contributed to successful project outcomes.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Co-founder",
+    company_name: "Plasma Studios",
+    icon: plasma,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I co-founded Plasma Studios during my college days, providing extensive IT consultancy, websites, and applications for businesses aiming to establish a robust online footprint.",
+      "Remarkably, we directed a portion of our earnings toward meaningful initiatives, conducting impactful food distribution campaigns that benefited underserved communities.",
     ],
   },
 ];
@@ -172,27 +145,25 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I secured 6th place among 70 IITs and NITs by developing a Raspberry Pi-powered VR-controlled spy car, utilizing an Arduino UNO microcontroller and a Bluetooth module.",
+    name: "HackFest'ISM 2019",
+    designation: "IIT ISM Dhanbad",
+    image: "https://pbs.twimg.com/profile_images/959448118889607168/pWsQ36wm_400x400.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "PointBlank is a group of over 80 programmers who work to promote coding culture in colleges by participating in 10+ contests and organising technical seminars.",
+    name: "Point Blank",
+    designation: "Member",
+    image: pb,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "In competitive programming, I have attained a CodeChef rating of 1628, holding a 3-star coder status. Furthermore, I have achieved a Codeforces rating of 1198.",
+    name: "codechef",
+    designation:"rahul_rudra",
+    image: "https://i.pinimg.com/originals/c5/d9/fc/c5d9fc1e18bcf039f464c2ab6cfb3eb6.jpg",
+    
   },
 ];
 
